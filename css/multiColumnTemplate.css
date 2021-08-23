@@ -49,13 +49,13 @@
 .primary_header {
   width: 100%;
   background-color: #FFFFFF;
-  padding-top: 10px;
+  padding-top: 1px;
   padding-bottom: 1px;
   clear: left;
   border-bottom: 2px solid #FFFFFF;
 }
 .secondary_header {
-  padding-left: 150px;
+  padding-left: 100px;
   padding-top: 1px;
   padding-bottom: 40px;
   background-color: #FFFFFF;
@@ -77,8 +77,8 @@ li {
 
 .navtext {
   margin-top: 0px;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
   width: auto;
   font-family: "Avenir";
   font-weight: bolder;
@@ -106,7 +106,7 @@ li {
 .container .left_article h3 {
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
   color: #141414;
   font-weight: normal;
   font-family: "Apple Chancery";
@@ -115,10 +115,7 @@ li {
 .container .left_article p {
   padding-left: 5%;
   padding-right: 5%;
-  text-align: justify;
-  line-height: 1px;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 5px;
   color: #141414;
   font-family: "Apple Chancery";
 }
@@ -280,13 +277,13 @@ li {
 	
 .navtext {
   display: table;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
   margin-top: 0px;
   width: auto;
   font-family: "Avenir";
   font-weight: bolder;
-  font-size: 8px;
+  font-size: 6px;
   color: #000000;
   letter-spacing: 0px;
   transition: all 0.3s linear;
@@ -383,13 +380,13 @@ li {
 }
 	
 .navtext {
-  padding-left: 3%;
-  padding-right: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
   margin-top: 0px;
   width: auto;
   font-family: "Avenir";
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 10px;
   color: #000000;
   letter-spacing: 0px;
   transition: all 0.3s linear;
@@ -498,13 +495,13 @@ li {
 }
 	
 .navtext {
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
   margin-top: 0px;
   width: auto;
   font-family: "Avenir";
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 25px;
   color: #000000;
   letter-spacing: 0px;
   transition: all 0.3s linear;
