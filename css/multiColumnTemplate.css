@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .container {
   background-color: #FFFFFF;
   width: 90%;
@@ -60,21 +59,18 @@
   padding-bottom: 40px;
   background-color: #FFFFFF;
 }
-
 ul {
-    list-style-type: none; /* this removes the bullets from the list */
-    margin: 0;
-    padding: 0;
+  list-style-type: none; /* this removes the bullets from the list */
+  margin: 0;
+  padding: 0;
 }
-
 li {
-    display: inline; /* this makes the links horizontal */
+  display: inline; /* this makes the links horizontal */
 }
-.nav{
-    display: table; 
-	margin: 0 auto;
+.nav {
+  display: table;
+  margin: 0 auto;
 }
-
 .navtext {
   margin-top: 0px;
   padding-left: 1%;
@@ -87,11 +83,10 @@ li {
   letter-spacing: 0px;
   transition: all 0.3s linear;
 }
-.navtext:hover{
-    font-family: "Avenir";
-	font-weight:normal;
+.navtext:hover {
+  font-family: "Avenir";
+  font-weight: normal;
 }
-
 .left_article {
   background-color: #FFFFFF;
   width: 100%;
@@ -240,65 +235,58 @@ body {
   width: 80%;
   opacity: 1.0;
 }
-.logo:hover{
-    opacity: 0.5;
+.logo:hover {
+  opacity: 0.5;
 }
-
 .aboutpic {
   width: 90%;
   background-color: #FFFFFF;
 }
-
 @media (max-width: 320px) {
-
-	.footer {background-color: #C8A4D3;
-}
-	
- ul {
+  .footer {
+    background-color: #C8A4D3;
+  }
+  ul {
     list-style-type: none; /* this removes the bullets from the list */
     margin: auto;
     padding: 20px;
-}
-
-li {
-    display: inline; /* this makes the links horizontal */
-}
-
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  opacity: 1.0;
-}
-.logo:hover{
-    opacity: 0.5;
-}	
-	
-.navtext {
-  display: table;
-  padding-left: 0%;
-  padding-right: 0%;
-  margin-top: 0px;
-  width: auto;
-  font-family: "Avenir";
-  font-weight: bolder;
-  font-size: 6px;
-  color: #000000;
-  letter-spacing: 0px;
-  transition: all 0.3s linear;
-}
-.navtext:hover{
-    font-family: "Avenir";
-	font-weight: normal;
-}
-	.secondary_header {
-   padding: 70px;
-   padding-top: 0px;
-   padding-bottom: 40px;
-   background-color: #FFFFFF;
   }
-	
+  li {
+    display: inline; /* this makes the links horizontal */
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1.0;
+  }
+  .logo:hover {
+    opacity: 0.5;
+  }
+  .navtext {
+    display: table;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 0px;
+    width: auto;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 6px;
+    color: #000000;
+    letter-spacing: 0px;
+    transition: all 0.3s linear;
+  }
+  .navtext:hover {
+    font-family: "Avenir";
+    font-weight: normal;
+  }
+  .secondary_header {
+    padding: 70px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+  }
   .left_article {
     width: 100%;
     height: auto;
@@ -349,60 +337,55 @@ li {
     width: 50px;
     height: 50px;
   }
- 
-.intro .column p {
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: justify;
-  line-height: 12px;
-  font-weight: lighter;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 80%;
-  margin-top: 1%;
-  font-family: "Arial";
-  font-size: 10px;
-}	
+  .intro .column p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 12px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+    margin-top: 1%;
+    font-family: "Arial";
+    font-size: 10px;
+  }
 }
 @media (min-width: 321px) and (max-width: 768px) {
-
-	.footer {
-  background-color: #C8A4D3;
-}
-	ul {
+  .footer {
+    background-color: #C8A4D3;
+  }
+  ul {
     list-style-type: none; /* this removes the bullets from the list */
     margin: auto;
     padding: 10%;
-}
-
-li {
-    display: inline; /* this makes the links horizontal */
-}
-	
-.navtext {
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 0px;
-  width: auto;
-  font-family: "Avenir";
-  font-weight: bolder;
-  font-size: 10px;
-  color: #000000;
-  letter-spacing: 0px;
-  transition: all 0.3s linear;
-}
-.navtext:hover{
-    font-family: "Avenir";
-	font-weight: normal;
-}
-  .secondary_header {
-   padding-left: 5px;
-   padding-right: 5px;
-   padding-top: 0px;
-   padding-bottom: 40px;
-   background-color: #FFFFFF;
   }
-	
+  li {
+    display: inline; /* this makes the links horizontal */
+  }
+  .navtext {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0px;
+    width: auto;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0px;
+    transition: all 0.3s linear;
+  }
+  .navtext:hover {
+    font-family: "Avenir";
+    font-weight: normal;
+  }
+  .secondary_header {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+  }
   .left_article {
     width: 100%;
     height: auto;
@@ -446,77 +429,69 @@ li {
     width: 80px;
     height: 80px;
   }
-	
-.intro .column p {
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: justify;
-  line-height: 12px;
-  font-weight: lighter;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 80%;
-  margin-top: 1%;
-  font-family: "Arial";
-  font-size: 10px;
-}	
-	
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  opacity: 1.0;
-}
-.logo:hover{
+  .intro .column p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 12px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+    margin-top: 1%;
+    font-family: "Arial";
+    font-size: 10px;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1.0;
+  }
+  .logo:hover {
     opacity: 0.5;
+  }
 }
-}
-@media ( min-width : 769px ) and (max-width : 2000px ){
-  
-	.footer {
-  background-color: #C8A4D3;
-}
-	
-ul {
+@media (min-width : 769px) and (max-width : 2000px) {
+  .footer {
+    background-color: #C8A4D3;
+  }
+  ul {
     list-style-type: none; /* this removes the bullets from the list */
     margin: 0;
     padding-left: 5%;
-	padding-right: 5%;
-}
-
-li {
-    display: inline; /* this makes the links horizontal */
-}
-
-.nav{
-    display: table; 
-	margin: 0 auto;
-}
-	
-.navtext {
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-top: 0px;
-  width: auto;
-  font-family: "Avenir";
-  font-weight: bolder;
-  font-size: 25px;
-  color: #000000;
-  letter-spacing: 0px;
-  transition: all 0.3s linear;
-}
-.navtext:hover{
-    font-family: "Avenir";
-	font-style: normal;
-}
-  .secondary_header {
-  padding-left: 32px;
-  padding-top: 1px;
-  padding-bottom: 40px;
-  background-color: #FFFFFF;
+    padding-right: 5%;
   }
-
+  li {
+    display: inline; /* this makes the links horizontal */
+  }
+  .nav {
+    display: table;
+    margin: 0 auto;
+  }
+  .navtext {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 0px;
+    width: auto;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 25px;
+    color: #000000;
+    letter-spacing: 0px;
+    transition: all 0.3s linear;
+  }
+  .navtext:hover {
+    font-family: "Avenir";
+    font-style: normal;
+  }
+  .secondary_header {
+    padding-left: 32px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+  }
   .left_article {
     height: auto;
   }
@@ -543,15 +518,14 @@ li {
     padding-left: 25px;
     padding-right: 25px;
   }
-	.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  opacity: 1.0;
-}
-.logo:hover{
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1.0;
+  }
+  .logo:hover {
     opacity: 0.5;
-}
-	
+  }
 }
