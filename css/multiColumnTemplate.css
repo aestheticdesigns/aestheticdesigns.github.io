@@ -466,22 +466,21 @@ body {
   }
   li {
     display: inline; /* this makes the links horizontal */
+	align-content: center;
   }
   .nav {
-    display: table;
-    margin: 0 auto;
+    display: inline;
+    margin: 300px;
   }
   .navtext {
     padding-left: 1%;
     padding-right: 1%;
-    margin-top: 0px;
-    width: auto;
+    margin-align: center;
     font-family: "Avenir";
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 45px;
     color: #000000;
-    letter-spacing: 0px;
-    transition: all 0.3s linear;
+    letter-spacing: 2px;
   }
   .navtext:hover {
     font-family: "Avenir";
