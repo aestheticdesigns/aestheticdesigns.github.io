@@ -146,6 +146,7 @@ li {
 }
 .footer {
   background-color: #C8A4D3;
+  align-content: center
 }
 .title {
   font-weight: bold;
@@ -186,7 +187,7 @@ li {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.copyright {
+.right {
   text-align: center;
   color: #000000;
   text-transform: normal;
