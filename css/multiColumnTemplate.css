@@ -1,4 +1,12 @@
- @charset "UTF-8";
+@charset "UTF-8";
+	
+.homepage {
+		width: 90%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}	
+	
 .container {
   background-color: #FFFFFF;
   width: 90%;
@@ -246,7 +254,11 @@ body {
 @media (max-width: 320px) {
 	
 	.homepage {
-	width:10%;}
+	width:10%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
 
   .footer {
     background-color: #C8A4D3;
@@ -360,7 +372,11 @@ body {
 
 @media (min-width: 321px) and (max-width: 768px) {
   .homepage {
-	width:60%;}
+	width:60%;
+	   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
 	
 	.footer {
     background-color: #C8A4D3;
@@ -467,6 +483,10 @@ body {
   
 	.homepage {
 		width: 90%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 	}
 	
 	.footer {
