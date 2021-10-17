@@ -246,7 +246,7 @@ body {
 @media (max-width: 320px) {
 	
 	.homepage {
-	width:40%;}
+	width:10%;}
 
   .footer {
     background-color: #C8A4D3;
@@ -464,7 +464,12 @@ body {
   }
 }
 @media (min-width : 769px) and (max-width : 2000px) {
-  .footer {
+  
+	.homepage {
+		width: 90%;
+	}
+	
+	.footer {
     background-color: #C8A4D3;
   }
   ul {
