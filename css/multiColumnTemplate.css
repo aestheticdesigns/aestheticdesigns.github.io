@@ -244,6 +244,10 @@ body {
   background-color: #FFFFFF;
 }
 @media (max-width: 320px) {
+	
+	.homepage {
+	width:40%;}
+
   .footer {
     background-color: #C8A4D3;
   }
@@ -351,9 +355,14 @@ body {
     font-family: "Arial";
     font-size: 10px;
   }
+
 }
+
 @media (min-width: 321px) and (max-width: 768px) {
-  .footer {
+  .homepage {
+	width:60%;}
+	
+	.footer {
     background-color: #C8A4D3;
   }
   ul {
